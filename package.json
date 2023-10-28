@@ -1,0 +1,13 @@
+{
+  "name": "tailwindcss-boilerplate",
+  "version": "1.0.0",
+  "description": "npm run installtailwind to setup",
+  "main": "index.js",
+  "scripts": {
+    "installtailwind": "npm install -D tailwindcss | npx tailwindcss init",
+    "watchtailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
